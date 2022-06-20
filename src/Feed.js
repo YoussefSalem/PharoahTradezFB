@@ -3,10 +3,10 @@ import "./Feed.css";
 import MessageSender from "./MessageSender";
 import Post from "./Post";
 import StoryReel from "./StoryReel";
-import db from "./firebase";
-import CommentSender from "./CommentSender";
-import comments from "./CommentSender";
-import Comment from "./Comment";
+import { db } from "./firebase/config";
+// import CommentSender from "./CommentSender";
+// import comments from "./CommentSender";
+// import Comment from "./Comment";
 
 function Feed() {
   const [posts, setPosts] = useState([]);
@@ -39,17 +39,3 @@ function Feed() {
 }
 
 export default Feed;
-
-{
-  /* <CommentSender />
-      {comments.map((post) => (
-        <Comment
-          key={post.data.id}
-          profilePic={post.data.profilePic}
-          comment={post.data.comment}
-          timestamp={post.data.timestamp}
-          username={post.data.username}
-          image={post.data.image}
-        />
-      ))} */
-}

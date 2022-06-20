@@ -5,8 +5,8 @@ import "./MessageSender.css";
 // import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 // import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
 import { useStateValue } from "./StateProvider";
-import db from "./firebase";
 import firebase from "firebase";
+import { db } from "./firebase/config";
 
 function MessageSender() {
   const [{ user }, dispatch] = useStateValue();

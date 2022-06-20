@@ -23,7 +23,9 @@ function Post({ profilePic, image, username, timestamp, commento, message }) {
       </div>
 
       <div class="post__options">
-        <p>{commento}</p>
+        <p>
+          <commento />
+        </p>
       </div>
 
       <div class="post__bottom">
