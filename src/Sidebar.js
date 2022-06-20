@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
+import { Link } from "react-router-dom";
 import SidebarRow from "./SidebarRow";
 import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
 import EmojiFlagsIcon from "@material-ui/icons/EmojiFlags";
@@ -16,15 +17,15 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <SidebarRow src={user.photoURL} title={user.displayName} />
-
-      <SidebarRow
-        Icon={LocalHospitalIcon}
-        title="COVID_19 Information Center"
-      />
+      <SidebarRow Icon={LocalHospitalIcon} title="COVID_19 Info-Center" />
       <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
       <SidebarRow Icon={PeopleIcon} title="Friends" />
       <SidebarRow Icon={ChatIcon} title="Messenger" />
-      <SidebarRow Icon={StoreIcon} title="Marketplace" />
+      <div className="sidebarL">
+        <a href="/Store">
+          <SidebarRow Icon={StoreIcon} title="Store" />
+        </a>
+      </div>
       <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
       <SidebarRow Icon={ExpandMoreIcon} title="More" />
     </div>
