@@ -27,7 +27,7 @@ const Slogin = () => {
   };
 
   return (
-    <div className="shaky">
+    <div className="shaky" >
     <Row>
       <Col md={{ span: 6, offset: 3 }}>
         <Card>

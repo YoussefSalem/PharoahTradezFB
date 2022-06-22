@@ -24,13 +24,14 @@ const AdminNav = () => {
         </div>
         <div className="right">
           {currentUser && (
-            <h5>
-              you are logged in as:{"  "}
+            <h9>
+              You are logged in as:{"  "}
               <span className="font-weight-lighter m-2 p-2">
                 {currentUser.email}
               </span>
-            </h5>
+            </h9>
           )}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {!Admin && (
             <NavLink to="/cart">
               <Icon icon={cart} size={30} style={{ color: "orange" }} />
@@ -39,6 +40,7 @@ const AdminNav = () => {
               </span>
             </NavLink>
           )}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {!currentUser && (
             <NavLink to="/signup" className="navLinks">
               Sign Up

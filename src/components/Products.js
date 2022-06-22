@@ -13,7 +13,7 @@ const Products = () => {
 
   return (
     <>
-      {products.length !== 0 && <h3 className="text-center">Products</h3>}
+  {products.length !== 0 && <h3 className="text-center">Products</h3>}
       <div className="products-container">
         {products.length < 0 && <div>check your internet connection!!</div>}
         {products &&

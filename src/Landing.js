@@ -65,7 +65,7 @@ export default function Landing() {
                 </a>
               </li>
               <li className="nav-item px-2">
-                <a className="nav-link fw-medium" href="#collection">
+                <a className="nav-link fw-medium" href="/Store">
                   Products
                 </a>
               </li>

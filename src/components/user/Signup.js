@@ -32,6 +32,7 @@ const Signup = () => {
   };
 
   return (
+    <div className="shaky">
     <>
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
@@ -76,7 +77,9 @@ const Signup = () => {
         </Col>
       </Row>
     </>
+    </div>
   );
+
 };
 
 export default Signup;

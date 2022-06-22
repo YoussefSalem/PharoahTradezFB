@@ -24,6 +24,7 @@ NAvbar .navbar {
 }
 
 .navbar .right {
+
   display: flex;
   flex-direction: row;
 }

@@ -18,7 +18,7 @@ function Header() {
     <div className="header">
       <div className="header__left">
         <img
-          src="https://cdn.discordapp.com/attachments/970813061919281202/982632942494945290/NLogo.jpg"
+          src="assets/Landing/img/gallery/logo-black.png"
           alt=""
         />
         <div className="header__input">

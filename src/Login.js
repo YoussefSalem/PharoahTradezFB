@@ -27,7 +27,7 @@ function Login() {
     <div className="login">
       <div className="login__logo">
         <img
-          src="https://cdn.discordapp.com/attachments/970813061919281202/982666918043451422/NLogo-modified.png"
+          src="assets/Landing/img/gallery/logo-black.png"
           alt="PharoahTradez"
         />
         <br></br>
