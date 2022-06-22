@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../images/android-chrome-512x512.png";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { CartContext } from "../../global/CartContext";
 
@@ -11,7 +10,7 @@ function Navbar() {
     <div className="navbar">
       <div className="left">
         <NavLink to="/">
-          <img src={logo} alt="logo" />
+          <img src="assets/Landing/img/gallery/logo-black.png" alt="logo" />
         </NavLink>
       </div>
       <div className="right">

@@ -47,12 +47,12 @@ const Signup = () => {
                   <Form.Control type="email" ref={emailRef} required />
                 </Form.Group>
 
-                <Form.Group id="password">
+                <Form.Group id="password"><br></br>
                   <Form.Label>Password</Form.Label>
                   <Form.Control type="password" ref={passwordRef} required />
                 </Form.Group>
 
-                <Form.Group id="password-confirm">
+                <Form.Group id="password-confirm"><br></br>
                   <Form.Label>Password Confirmation</Form.Label>
                   <Form.Control
                     type="password"
@@ -60,13 +60,16 @@ const Signup = () => {
                     required
                   />
                 </Form.Group>
-
+                <br></br>
                 <Button disabled={loading} type="submit">
+                  
                   Create Account
                 </Button>
               </Form>
             </Card.Body>
+            
           </Card>
+          <br></br><br></br>
           <div className="text-center mt-2">
             Already have an account? <Link to="/login">Log In</Link>
           </div>

@@ -43,7 +43,7 @@ const Slogin = () => {
                   required
                 />
               </Form.Group>
-
+<br></br>
               <Form.Group id="password">
                 <Form.Label>Password</Form.Label>
                 <Form.Control
@@ -53,6 +53,8 @@ const Slogin = () => {
                   required
                 />
               </Form.Group>
+
+              <br></br>
               <Button disabled={loading} type="submit" className="w-100">
                 Login
               </Button>
@@ -60,8 +62,11 @@ const Slogin = () => {
           </Card.Body>
           <div className="text-center mt-2">
             Need an account? <Link to="/signup">Sign Up</Link>
+            
           </div>
+          <br></br>
         </Card>
+        <br></br><br></br>
       </Col>
     </Row>
   );
