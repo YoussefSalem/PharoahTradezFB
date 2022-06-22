@@ -27,6 +27,7 @@ const Slogin = () => {
   };
 
   return (
+    <div className="shaky">
     <Row>
       <Col md={{ span: 6, offset: 3 }}>
         <Card>
@@ -69,7 +70,9 @@ const Slogin = () => {
         <br></br><br></br>
       </Col>
     </Row>
+    </div>
   );
 };
+
 
 export default Slogin;

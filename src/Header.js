@@ -23,7 +23,10 @@ function Header() {
         />
         <div className="header__input">
           <SearchIcon />
-          <input type="text" placeholder="Search Tradez" />
+          <input type="text" class="textSearchvalue_h" placeholder="Search Tradez" />
+          <div class="ui-block-b">
+                <a href="#" class="searchButtonClickText_h">Search</a>
+            </div>
         </div>
       </div>
       <div className="header__center">
@@ -41,7 +44,7 @@ function Header() {
           <Avatar src={user.photoURL} />
           <h4>{user.displayName}</h4>
         </div>
-        <IconButton>
+        {/* <IconButton>
           <AddIcon />
         </IconButton>
         <IconButton>
@@ -52,7 +55,7 @@ function Header() {
         </IconButton>
         <IconButton>
           <ExpandMoreIcon />
-        </IconButton>
+        </IconButton> */}
       </div>
     </div>
   );

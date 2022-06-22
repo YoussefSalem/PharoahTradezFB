@@ -8,13 +8,13 @@ const Orders = () => {
   const history = useNavigate();
   const { currentUser } = useAuth();
 
-  // useEffect(() => {
-  //   if (!currentUser) {
-  //     history("/");
-  //   } else if (currentUser.uid !== process.env.REACT_APP_ADMIN_ID) {
-  //     history("/");
-  //   }
-  // });
+  useEffect(() => {
+    if (!currentUser) {
+      history("/");
+    } else if (currentUser.uid !== process.env.REACT_APP_ADMIN_ID) {
+      history("/orders");
+    }
+  });
 
   return (
     <>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Feed.css";
 import MessageSender from "./MessageSender";
 import Post from "./Post";
-import StoryReel from "./StoryReel";
+// import StoryReel from "./StoryReel";
 import { db } from "./firebase/config";
 // import CommentSender from "./CommentSender";
 // import comments from "./CommentSender";
@@ -21,7 +21,7 @@ function Feed() {
 
   return (
     <div className="feed">
-      <StoryReel />
+      {/* <StoryReel /> */}
       <MessageSender />
       {posts.map((post) => (
         <Post
