@@ -84,7 +84,7 @@ const AddProducts = () => {
   return (
     <div className="container">
       <br />
-      <img src={logo} className="logo" alt="logo" />
+      {/* <img src={logo} className="logo" alt="logo" /> */}
       <h2 className="text-center">Add Products</h2>
       {success && (
         <h3 className="alert-info p-2 text-center">

@@ -8,7 +8,7 @@ function Footer() {
 
   return (
     <footer className="text-center mb-2">
-      <big>&copy; Copyright {currentYear} PharoahTrazed | Team 6</big>
+      <big>&copy; Copyright {currentYear} PharoahTradez | Team 6</big>
     </footer>
   );
 }
