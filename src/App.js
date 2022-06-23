@@ -18,6 +18,7 @@ import CartContextProvider from "./global/CartContext";
 import Cart from "./components/Cart";
 import { Cashout } from "./components/Cashout";
 import Orders from "./components/Orders";
+import AboutUs from "./AboutUs"
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -28,6 +29,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/aboutus" element={<AboutUs/>} />
           <Route
             path="/Trade"
             element={

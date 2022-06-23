@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.about{
+    width: 100%;
+    padding: 150px 0px;
+    background-image: url(../AboutUs/gallery/abt-background-1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.about img{
+    height: auto;
+    width: 460px;
+}
+
+.about-txt{
+    width: 490px;
+}
+
+.image-logo-abt{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-txt h1{
+    color: #024ccf;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-txt h5{
+    color: #c26899;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+span{
+    color: #5e3ec4;
+}
+.about-txt p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
