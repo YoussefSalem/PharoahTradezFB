@@ -23,7 +23,7 @@ function MessageSender() {
       username: user.displayName,
       image: imageUrl,
     });
-
+    alert("Post created 🚀🚀🚀");
     setInput("");
     setImageUrl("");
   };

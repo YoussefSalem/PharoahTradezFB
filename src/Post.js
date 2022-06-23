@@ -3,7 +3,7 @@ import React from "react";
 import "./Post.css";
 import CommentSender from "./CommentSender";
 
-function Post({ profilePic, image, username, timestamp, commento, message }) {
+function Post({ profilePic, image, username, timestamp, commento, message, }) {
   return (
     <div className="post">
       <div class="post__top">
@@ -24,7 +24,7 @@ function Post({ profilePic, image, username, timestamp, commento, message }) {
 
       <div class="post__options">
         <p>
-          <commento />
+        <p>{commento}</p>
         </p>
       </div>
 
