@@ -79,6 +79,7 @@ export const Cashout = (props) => {
 
   return (
     <>
+    
       <div className="container">
         <br />
         <h2>Cashout Details</h2>
@@ -109,14 +110,14 @@ export const Cashout = (props) => {
           />
           <br />
           <label htmlFor="Phone Number">Phone Number</label>
-          <small> Format: 070 000 00 00</small>
+          <small> Format: 01xxxxxxxx</small>
           <input
             type="tel"
             className="form-control"
             required
             onChange={(e) => setPhone(e.target.value)}
             value={phone}
-            placeholder="070 000 00 00"
+            placeholder="01xxxxxxxx"
             minLength={10}
           />
           <br />

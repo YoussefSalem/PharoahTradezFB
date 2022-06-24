@@ -19,7 +19,7 @@ const AdminNav = () => {
       <div className="navbar">
         <div className="left">
           <NavLink to="/">
-            <img src="assets/Landing/img/gallery/logo-black.png" alt="logo" />
+          <img src="./assets/Landing/img/gallery/logo-black.png" alt="logo" />
           </NavLink>
         </div>
         <div className="right">
