@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Feed from "./Feed";
 import Header from "./Header";
@@ -18,18 +18,37 @@ import CartContextProvider from "./global/CartContext";
 import Cart from "./components/Cart";
 import { Cashout } from "./components/Cashout";
 import Orders from "./components/Orders";
-import AboutUs from "./AboutUs"
+import AboutUs from "./AboutUs";
+import { auth } from "./firebase/config";
+import { actionTypes } from "./Reducer";
+import { useAuth } from "./global/AuthContext";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
-
+  const [currentUser, setCurrentUser] = useState(auth.currentUser && null);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    dispatch({
+      // user: auth.
+    });
+    // const unsubscribe = auth.user((user) => {
+    //   setCurrentUser(user);
+    //   dispatch({
+    //     user: user,
+    //   });
+    //   console.log(user);
+    //   // auth.signOut();
+    //   setLoading(false);
+    // });
+    // return unsubscribe;
+  }, []);
   return (
     // Bem
     <div className="app">
       <Router>
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/aboutus" element={<AboutUs/>} />
+          <Route path="/aboutus" element={<AboutUs />} />
           <Route
             path="/Trade"
             element={

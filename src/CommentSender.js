@@ -15,7 +15,7 @@ function CommentSender() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    db.collection("posts").add({
+    db.collection("comments").add({
       commento: input,
       ctimestamp: firebase.firestore.FieldValue.serverTimestamp(),
       cprofilePic: user.photoURL,

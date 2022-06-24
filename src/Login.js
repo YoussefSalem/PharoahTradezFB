@@ -18,7 +18,13 @@ function Login() {
           type: actionTypes.SET_USER,
           user: result.user,
         });
-        console.log(result.user);
+
+        // auth.createUserWithEmailAndPassword(
+        //   result.user.email,
+        //   result.user.email
+        // );
+        // auth.signInWithEmailLink(result.user.email);
+        // console.log(result.user.email);
       })
       .catch((error) => alert(error.message));
   };

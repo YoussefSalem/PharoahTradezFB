@@ -17,13 +17,14 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <img
-          src="assets/Landing/img/gallery/logo-black.png"
-          alt=""
-        />
+        <img src="assets/Landing/img/gallery/logo-black.png" alt="" />
         <div className="header__input">
           <SearchIcon />
-          <input type="text" class="textSearchvalue_h" placeholder="Search Tradez" />
+          <input
+            type="text"
+            class="textSearchvalue_h"
+            placeholder="Search Tradez"
+          />
           {/* <div class="ui-block-b">
                 <a href="#" class="searchButtonClickText_h">Search</a>
             </div> */}

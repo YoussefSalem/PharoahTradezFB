@@ -8,9 +8,9 @@ function Footer() {
 
   return (
     <div className="footeradj">
-    <footer className="text-center mb-2">
-      <big>&copy; Copyright {currentYear} PharoahTradez | Team 6</big>
-    </footer>
+      <footer className="text-center mb-2">
+        <big>&copy; Copyright {currentYear} PharoahTradez | Team 6</big>
+      </footer>
     </div>
   );
 }
