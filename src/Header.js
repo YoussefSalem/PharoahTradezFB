@@ -24,9 +24,9 @@ function Header() {
         <div className="header__input">
           <SearchIcon />
           <input type="text" class="textSearchvalue_h" placeholder="Search Tradez" />
-          <div class="ui-block-b">
+          {/* <div class="ui-block-b">
                 <a href="#" class="searchButtonClickText_h">Search</a>
-            </div>
+            </div> */}
         </div>
       </div>
       <div className="header__center">

@@ -82,3 +82,7 @@ textarea:focus {
 .form > button:hover {
   background-color: rgb(0, 0, 196);
 }
+
+.Cfooter{
+  background-color: rgb(0, 0, 0);
+}

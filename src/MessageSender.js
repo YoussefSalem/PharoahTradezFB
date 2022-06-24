@@ -8,13 +8,17 @@ import { useStateValue } from "./StateProvider";
 import firebase from "firebase";
 import { db } from "./firebase/config";
 
+import { getDatabase, ref, push, set } from "firebase/database";
+
+
 function MessageSender() {
   const [{ user }, dispatch] = useStateValue();
   const [input, setInput] = useState("");
   const [imageUrl, setImageUrl] = useState("");
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
 
     db.collection("posts").add({
       message: input,

@@ -78,7 +78,7 @@ export default function Landing() {
                 <a
                   className="nav-link fw-medium active"
                   aria-current="page"
-                  href="AboutUs"
+                  href="/AboutUs"
                 >
                   About US
                 </a>
@@ -834,7 +834,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PS4</p>
                             <h4 className="text-light">No Mans Sky</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -850,7 +850,7 @@ export default function Landing() {
                               Ori and the Blind Forest
                             </h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -864,7 +864,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">Xbox</p>
                             <h4 className="text-light">Sea of Thieves</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -878,7 +878,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PC</p>
                             <h4 className="text-light">Subnautica</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                     </div>
@@ -896,7 +896,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">Xbox</p>
                             <h4 className="text-light">Cobra Kai</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -910,7 +910,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PS4</p>
                             <h4 className="text-light">Destiny 2</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -924,7 +924,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PC</p>
                             <h4 className="text-light">Doom Eternal</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -938,7 +938,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PC</p>
                             <h4 className="text-light">Forza Horizon 4</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                     </div>
@@ -956,7 +956,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PS4</p>
                             <h4 className="text-light">Hades</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -970,7 +970,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PC</p>
                             <h4 className="text-light">Halo Infinite</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -984,7 +984,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PS4</p>
                             <h4 className="text-light">Hollow Knight</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -998,7 +998,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">Xbox</p>
                             <h4 className="text-light">Jumanji</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                     </div>
@@ -1018,7 +1018,7 @@ export default function Landing() {
                               Microsoft Flight Simulator
                             </h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1032,7 +1032,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PC</p>
                             <h4 className="text-light">Minecraft</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1046,7 +1046,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PC</p>
                             <h4 className="text-light">Monster Hunter Rise</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1060,7 +1060,7 @@ export default function Landing() {
                             <p className="text-400 fs-1">PS4</p>
                             <h4 className="text-light">Need for Speed Heat</h4>
                           </div>
-                          <a className="stretched-link" href="/Store"></a>
+                          <a className="stretched-link" href="/Trade"></a>
                         </div>
                       </div>
                     </div>
@@ -7249,18 +7249,13 @@ export default function Landing() {
               </h5>
               <ul className="list-unstyled mb-md-4 mb-lg-0">
                 <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="AboutUs">
+                  <a className="text-800 text-decoration-none" href="/AboutUs">
                     About Us
                   </a>
                 </li>
                 <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    Affiliate
-                  </a>
-                </li>
-                <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    Gamer Blogger
+                  <a className="text-800 text-decoration-none" href="/AboutUs">
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -7276,55 +7271,13 @@ export default function Landing() {
               </h5>
               <ul className="list-unstyled mb-md-4 mb-lg-0">
                 <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    Shipping Info
-                  </a>
-                </li>
-                <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
+                  <a className="text-800 text-decoration-none" href="/AboutUs">
                     Refunds
                   </a>
                 </li>
                 <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
+                  <a className="text-800 text-decoration-none" href="/AboutUs">
                     How to Order
-                  </a>
-                </li>
-                <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    How to Track
-                  </a>
-                </li>
-                <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    Size Guides
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-lg-2 mb-3">
-              <h5
-                style={{
-                  color: "white",
-                }}
-                className="lh-lg fw-bold text-1000"
-              >
-                Customer Care
-              </h5>
-              <ul className="list-unstyled mb-md-4 mb-lg-0">
-                <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    Contact Us
-                  </a>
-                </li>
-                <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    Payment Methods
-                  </a>
-                </li>
-                <li className="lh-lg">
-                  <a className="text-800 text-decoration-none" href="#!">
-                    Bonus Point
                   </a>
                 </li>
               </ul>

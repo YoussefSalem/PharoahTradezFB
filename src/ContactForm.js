@@ -39,21 +39,21 @@ const Contact = () => {
     <form className="form" onSubmit={handleSubmit}>
       <h1>Contact Us 🤳</h1>
 
-      <label>Name</label>
+      <label style={{color: "white"}}>Name</label>
       <input
         placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
 
-      <label>Email</label>
+      <label style={{color: "white"}}>Email</label>
       <input
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
 
-      <label>Message</label>
+      <label style={{color: "white"}}>Message</label>
       <textarea
         placeholder="Message"
         value={message}

@@ -4,6 +4,7 @@ import "./Post.css";
 import CommentSender from "./CommentSender";
 
 function Post({ profilePic, image, username, timestamp, commento, message, }) {
+  
   return (
     <div className="post">
       <div class="post__top">
@@ -29,7 +30,7 @@ function Post({ profilePic, image, username, timestamp, commento, message, }) {
       </div>
 
       <div class="post__bottom">
-        <CommentSender></CommentSender>
+        <CommentSender/>
       </div>
     </div>
   );
