@@ -18,7 +18,7 @@ const Slogin = () => {
     try {
       setLoading(true);
       await login(emailRef.current.value, passwordRef.current.value);
-      history("/");
+      history("/Store");
     } catch (err) {
       setError(err.message);
       console.log(err);
@@ -28,6 +28,9 @@ const Slogin = () => {
 
   return (
     <div className="shaky">
+      <br></br>
+      <br></br>
+
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
           <Card>

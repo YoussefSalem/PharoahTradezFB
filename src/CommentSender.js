@@ -8,7 +8,7 @@ import { useStateValue } from "./StateProvider";
 import firebase from "firebase";
 import { db } from "./firebase/config";
 
-function CommentSender() {
+function CommentSender({ postId }) {
   const [{ user }, dispatch] = useStateValue();
   const [input, setInput] = useState("");
 
@@ -20,6 +20,7 @@ function CommentSender() {
       ctimestamp: firebase.firestore.FieldValue.serverTimestamp(),
       cprofilePic: user.photoURL,
       cusername: user.displayName,
+      PostId: postId,
     });
 
     setInput("");
