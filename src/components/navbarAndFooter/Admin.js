@@ -105,12 +105,15 @@ const AdminNav = () => {
                   </h9>
                 )}
               </ul>
-              <span className="font-weight-bolder text-danger mr-3">
-                {totalQty}{" "}
-              </span>
+              {!Admin && (
+                <NavLink to="/cart">
+                  <span className="font-weight-bolder text-danger mr-3">
+                    {totalQty}{" "}
+                  </span>
+                </NavLink>
+              )}
               <form className="d-flex">
-                <a className="text-1000" href="Cart">
-                  {" "}
+                <a className="text-1000" href="">
                   <svg
                     className="feather feather-shopping-cart me-3"
                     xmlns="http://www.w3.org/2000/svg"
