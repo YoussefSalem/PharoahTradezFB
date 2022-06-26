@@ -7299,6 +7299,7 @@ export default function Landing() {
                     placeholder="Enter Email"
                     aria-label="email"
                   />
+          
                   <svg
                     className="bi bi-arrow-right-short input-box-icon"
                     xmlns="http://www.w3.org/2000/svg"

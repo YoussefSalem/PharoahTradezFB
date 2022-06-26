@@ -1,4 +1,7 @@
 import React, { useContext } from "react";
+import ReactDOM from "react-dom";
+import algoliasearch from "algoliasearch/lite";
+import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom";
 import { Card, Button, Col } from "react-bootstrap";
 import { CartContext } from "../global/CartContext";
 import "../css/index.css";
@@ -8,12 +11,20 @@ import "../css/Home.css";
 import useProducts from "../hooks/useProducts";
 const Products = () => {
   const products = useProducts();
+  const searchClient = algoliasearch(
+    "latency",
+    "69b3b54e7cedfefdbba0b9f026f7d006"
+  );
 
   const { dispatch } = useContext(CartContext);
 
   return (
     <>
       <br></br>
+      <InstantSearch indexName="PharoahTradez" searchClient={searchClient}>
+        <SearchBox />
+        <Hits />
+      </InstantSearch>
       {products.length !== 0 && <h3 className="text-center">Products</h3>}
       <div className="products-container">
         {products.length < 0 && <div>check your internet connection!!</div>}

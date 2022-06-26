@@ -1,33 +1,31 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import algoliasearch from "algoliasearch/lite";
+import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ControlCameraIcon from "@material-ui/icons/ControlCamera";
 import VideogameAssetIcon from "@material-ui/icons/VideogameAsset";
 import { Avatar, IconButton } from "@material-ui/core";
-import AddIcon from "@material-ui/icons/Add";
-import ForumIcon from "@material-ui/icons/Forum";
-import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useStateValue } from "./StateProvider";
 import { Link } from "react-router-dom";
 
 function Header() {
   const [{ user }, dispatch] = useStateValue();
+  const searchClient = algoliasearch(
+    "latency",
+    "69b3b54e7cedfefdbba0b9f026f7d006"
+  );
 
   return (
     <div className="header">
       <div className="header__left">
         <img src="assets/Landing/img/gallery/logo-black.png" alt="" />
         <div className="header__input">
-          <SearchIcon />
-          <input
-            type="text"
-            class="textSearchvalue_h"
-            placeholder="Search Tradez"
-          />
-          {/* <div class="ui-block-b">
-                <a href="#" class="searchButtonClickText_h">Search</a>
-            </div> */}
+          <InstantSearch indexName="PharoahTradez" searchClient={searchClient}>
+            <SearchBox />
+            <Hits />
+          </InstantSearch>
         </div>
       </div>
       <div className="header__center">
