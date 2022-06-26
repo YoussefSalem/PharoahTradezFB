@@ -220,3 +220,18 @@ h1 {
 .success-msg .home-link {
   color: #fff;
 }
+
+.ais-Hits-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.ais-Hits-item {
+  width: 33% !important;
+  height: 100%;
+
+  /* columns: 3 !important; */
+}

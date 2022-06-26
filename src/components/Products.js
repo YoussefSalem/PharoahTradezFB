@@ -10,7 +10,7 @@ import {
   SortBy,
   RefinementList,
 } from "react-instantsearch-dom";
-import { Card, Button, Col } from "react-bootstrap";
+import { Card, Button, Col, Row } from "react-bootstrap";
 import { CartContext } from "../global/CartContext";
 import "../css/index.css";
 import "../css/Home.css";
@@ -55,62 +55,67 @@ const Products = () => {
           </h3>{" "}
           <RefinementList attribute={"departments.dep_name"} operator="and" />
           <div className="mt-3">
-            <div className="col-12 d-flex flex-row nav">
-              <div className="products-container d-flex flex-row">
-                <Hits
-                  hitComponent={(data) => {
-                    let product = data.hit;
-                    return (
-                      <Col
-                        className="m-1"
-                        xs={12}
-                        sm={6}
-                        md={4}
-                        lg={3}
-                        key={data.hit.objectID}
-                      >
-                        <Card style={{ width: "18rem" }}>
-                          <Card.Img variant="top" src={data.hit.ProductImage} />
-                          <Card.Body>
-                            <Card.Title>{data.hit.ProductName}</Card.Title>
+            <div className="col-12">
+              <div className="">
+                <Row>
+                  <Hits
+                    hitComponent={(data) => {
+                      let product = data.hit;
+                      return (
+                        <Col
+                          className="m-1"
+                          // xs={12}
+                          // sm={6}
+                          // md={4}
+                          // lg={3}
+                          sm
+                          key={data.hit.objectID}
+                        >
+                          <Card style={{ width: "18rem" }}>
+                            <Card.Img
+                              variant="top"
+                              src={data.hit.ProductImage}
+                            />
+                            <Card.Body>
+                              <Card.Title>{data.hit.ProductName}</Card.Title>
 
-                            <Card.Text className="">
-                              {" "}
-                              Price :
-                              <span className="OldPrice">
-                                {data.hit.ProductPrice * 1.3} EGP{" "}
-                              </span>
-                            </Card.Text>
-                            <Card.Text className="text-danger bold">
-                              {" "}
-                              <span className="font-weight-bolder">
+                              <Card.Text className="">
                                 {" "}
-                                30% of Price: {data.hit.ProductPrice} EGP.
-                              </span>
-                            </Card.Text>
-                            <Card.Text className="text-danger bold">
-                              {" "}
-                            </Card.Text>
+                                Price :
+                                <span className="OldPrice">
+                                  {data.hit.ProductPrice * 1.3} EGP{" "}
+                                </span>
+                              </Card.Text>
+                              <Card.Text className="text-danger bold">
+                                {" "}
+                                <span className="font-weight-bolder">
+                                  {" "}
+                                  30% of Price: {data.hit.ProductPrice} EGP.
+                                </span>
+                              </Card.Text>
+                              <Card.Text className="text-danger bold">
+                                {" "}
+                              </Card.Text>
 
-                            <Button
-                              variant="info
-              "
-                              onClick={() => {
-                                dispatch({
-                                  type: "ADD_TO_CART",
-                                  id: data.hit.ArticleNumber,
-                                  product,
-                                });
-                              }}
-                            >
-                              Add to Cart
-                            </Button>
-                          </Card.Body>
-                        </Card>
-                      </Col>
-                    );
-                  }}
-                />
+                              <Button
+                                variant="info"
+                                onClick={() => {
+                                  dispatch({
+                                    type: "ADD_TO_CART",
+                                    id: data.hit.ArticleNumber,
+                                    product,
+                                  });
+                                }}
+                              >
+                                Add to Cart
+                              </Button>
+                            </Card.Body>
+                          </Card>
+                        </Col>
+                      );
+                    }}
+                  />
+                </Row>
               </div>
             </div>
           </div>
