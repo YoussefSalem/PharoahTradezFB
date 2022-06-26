@@ -34,7 +34,9 @@ h1 {
   padding: 30px;
   border-bottom: 1px solid #e4e4e4;
 }
-
+.Scontainer {
+  column-count: 3; 
+}
 .products-container {
   display: flex;
   justify-content: center;

@@ -21,12 +21,12 @@ function Header() {
     <div className="header">
       <div className="header__left">
         <img src="assets/Landing/img/gallery/logo-black.png" alt="" />
-        <div className="header__input">
+        {/* <div className="header__input">
           <InstantSearch indexName="PharoahTradez" searchClient={searchClient}>
             <SearchBox />
             <Hits />
           </InstantSearch>
-        </div>
+        </div> */}
       </div>
       <div className="header__center">
         <div className="header__option header__option--active">

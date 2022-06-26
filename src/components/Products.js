@@ -31,7 +31,7 @@ const Products = () => {
     <>
       <br></br>
       <InstantSearch searchClient={searchClient} indexName="dev_pharoah_tradez">
-        <div className="container">
+        <div className="Scontainer">
           <div
             className="row w-100"
             style={{
@@ -93,8 +93,7 @@ const Products = () => {
                             </Card.Text>
 
                             <Button
-                              variant="info
-              "
+                              variant="info"
                               onClick={() => {
                                 dispatch({
                                   type: "ADD_TO_CART",
