@@ -1,5 +1,6 @@
 // import "./App.css";
 import React from "react";
+import { ContactUs } from "./Comment";
 
 export default function Landing() {
   return (
@@ -111,7 +112,7 @@ export default function Landing() {
                   integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
                   crossorigin="anonymous"
                 />
-{/* 
+                {/* 
                 <form action="">
                   <input type="search" required />{" "}
                   <svg
@@ -653,7 +654,11 @@ export default function Landing() {
                   covered Huge Savings on Hit Games!
                 </p>
                 <div className="d-grid gap-2 d-md-block">
-                  <a className="btn btn-lg btn-dark" href="/Store" role="button">
+                  <a
+                    className="btn btn-lg btn-dark"
+                    href="/Store"
+                    role="button"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -1273,7 +1278,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1296,7 +1304,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1319,7 +1330,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1342,7 +1356,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -1372,7 +1389,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1395,7 +1415,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1418,7 +1441,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1441,7 +1467,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -1471,7 +1500,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1494,7 +1526,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1517,7 +1552,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1540,7 +1578,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -1567,7 +1608,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1590,7 +1634,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1613,7 +1660,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1636,7 +1686,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -1716,7 +1769,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1742,7 +1798,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1768,7 +1827,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1794,7 +1856,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -1827,7 +1892,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1853,7 +1921,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1879,7 +1950,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1905,7 +1979,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -1938,7 +2015,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1961,7 +2041,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -1987,7 +2070,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2010,7 +2096,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2040,7 +2129,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2066,7 +2158,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2092,7 +2187,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2115,7 +2213,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2198,7 +2299,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2224,7 +2328,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2250,7 +2357,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2276,7 +2386,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2309,7 +2422,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2332,7 +2448,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2358,7 +2477,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2384,7 +2506,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2414,7 +2539,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2437,7 +2565,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2460,7 +2591,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2483,7 +2617,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2510,7 +2647,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2533,7 +2673,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2556,7 +2699,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2582,7 +2728,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2662,7 +2811,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2688,7 +2840,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2711,7 +2866,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2734,7 +2892,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2764,7 +2925,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2790,7 +2954,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2813,7 +2980,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2836,7 +3006,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2866,7 +3039,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2889,7 +3065,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2912,7 +3091,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2935,7 +3117,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -2962,7 +3147,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -2985,7 +3173,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3008,7 +3199,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3031,7 +3225,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -3111,7 +3308,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3134,7 +3334,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3157,7 +3360,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3180,7 +3386,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -3210,7 +3419,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3233,7 +3445,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3256,7 +3471,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3279,7 +3497,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -3309,7 +3530,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3332,7 +3556,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3355,7 +3582,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3378,7 +3608,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -3405,7 +3638,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3428,7 +3664,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3451,7 +3690,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -3474,7 +3716,10 @@ export default function Landing() {
                                         </span>
                                       </div>
                                     </div>
-                                    <a className="stretched-link" href="/Store"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Store"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4139,7 +4384,10 @@ export default function Landing() {
                                         Grand Theft Auto V
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4157,7 +4405,10 @@ export default function Landing() {
                                         Death Stranding
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4175,7 +4426,10 @@ export default function Landing() {
                                         Monster Hunter Rise
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4193,7 +4447,10 @@ export default function Landing() {
                                         Portal 2
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4218,7 +4475,10 @@ export default function Landing() {
                                         Forza Horizon 4
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4236,7 +4496,10 @@ export default function Landing() {
                                         Overwatch
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4254,7 +4517,10 @@ export default function Landing() {
                                         Doom Eternal
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4272,7 +4538,10 @@ export default function Landing() {
                                         Detroit Become Human
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4297,7 +4566,10 @@ export default function Landing() {
                                         Halo Infinite
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4315,7 +4587,10 @@ export default function Landing() {
                                         Dead by Daylight
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4333,7 +4608,10 @@ export default function Landing() {
                                         Ori and the Blind Forest
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4351,7 +4629,10 @@ export default function Landing() {
                                         Minecraft
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4373,7 +4654,10 @@ export default function Landing() {
                                         World of Warcraft
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4391,7 +4675,10 @@ export default function Landing() {
                                         Resident Evil Village
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4409,7 +4696,10 @@ export default function Landing() {
                                         The Witcher 3: Wild Hunt
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4427,7 +4717,10 @@ export default function Landing() {
                                         Subnautica
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4502,7 +4795,10 @@ export default function Landing() {
                                         Spider-Man: Miles Morales
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4520,7 +4816,10 @@ export default function Landing() {
                                         Ghostwire Tokyo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4538,7 +4837,10 @@ export default function Landing() {
                                         Kena: Bridge of Spirits
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4556,7 +4858,10 @@ export default function Landing() {
                                         Assassin's Creed
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4581,7 +4886,10 @@ export default function Landing() {
                                         All Star Brawl
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4599,7 +4907,10 @@ export default function Landing() {
                                         Demon Souls
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4617,7 +4928,10 @@ export default function Landing() {
                                         Horizon
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4635,7 +4949,10 @@ export default function Landing() {
                                         Guardians of the Galaxy
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4660,7 +4977,10 @@ export default function Landing() {
                                         Sackboy
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4678,7 +4998,10 @@ export default function Landing() {
                                         The Medium
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4696,7 +5019,10 @@ export default function Landing() {
                                         Marvel's Avengers
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4714,7 +5040,10 @@ export default function Landing() {
                                         Resident Evil Village
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4736,7 +5065,10 @@ export default function Landing() {
                                         Necromunda Hired Gun
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4754,7 +5086,10 @@ export default function Landing() {
                                         Project Athia
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4772,7 +5107,10 @@ export default function Landing() {
                                         The Pathless
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4790,7 +5128,10 @@ export default function Landing() {
                                         Ratchet and Clank
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4865,7 +5206,10 @@ export default function Landing() {
                                         Spider Man Miles Morales
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4883,7 +5227,10 @@ export default function Landing() {
                                         Bloodstained Ritual of the Night
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4901,7 +5248,10 @@ export default function Landing() {
                                         Batman Arkham Knight
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4919,7 +5269,10 @@ export default function Landing() {
                                         Eldin Ring
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -4944,7 +5297,10 @@ export default function Landing() {
                                         Ghost of Tsushima
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4962,7 +5318,10 @@ export default function Landing() {
                                         Hollow Knight
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4980,7 +5339,10 @@ export default function Landing() {
                                         God of War
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -4998,7 +5360,10 @@ export default function Landing() {
                                         Gran Turismo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5023,7 +5388,10 @@ export default function Landing() {
                                         Destiny 2
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5041,7 +5409,10 @@ export default function Landing() {
                                         Hades
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5059,7 +5430,10 @@ export default function Landing() {
                                         Horizon
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5077,7 +5451,10 @@ export default function Landing() {
                                         Mortal Kombat
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5099,7 +5476,10 @@ export default function Landing() {
                                         Need for Speed Heat
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5117,7 +5497,10 @@ export default function Landing() {
                                         Persona 5
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5135,7 +5518,10 @@ export default function Landing() {
                                         Demon Slayer
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5153,7 +5539,10 @@ export default function Landing() {
                                         Cyperpunk
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5228,7 +5617,10 @@ export default function Landing() {
                                         Battlefield
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5246,7 +5638,10 @@ export default function Landing() {
                                         Call of Duty Vanguard
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5264,7 +5659,10 @@ export default function Landing() {
                                         Crash Bandicoot
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5282,7 +5680,10 @@ export default function Landing() {
                                         Deadpool
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5307,7 +5708,10 @@ export default function Landing() {
                                         Far Cry 6
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5325,7 +5729,10 @@ export default function Landing() {
                                         Friday the 13th
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5343,7 +5750,10 @@ export default function Landing() {
                                         Ghostbusters
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5361,7 +5771,10 @@ export default function Landing() {
                                         Grand Theft Auto V
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5386,7 +5799,10 @@ export default function Landing() {
                                         Hitman 2
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5404,7 +5820,10 @@ export default function Landing() {
                                         JEDI Fallen Order
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5422,7 +5841,10 @@ export default function Landing() {
                                         Jumanji
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5440,7 +5862,10 @@ export default function Landing() {
                                         Kart Racers
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5462,7 +5887,10 @@ export default function Landing() {
                                         LEGO Star Wars
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5480,7 +5908,10 @@ export default function Landing() {
                                         Sea of Thieves
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5498,7 +5929,10 @@ export default function Landing() {
                                         Sniper Ghost Warrior
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5516,7 +5950,10 @@ export default function Landing() {
                                         The Sojourn
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5591,7 +6028,10 @@ export default function Landing() {
                                         XCOM Enemy Unknown
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5609,7 +6049,10 @@ export default function Landing() {
                                         Call of Duty: World at War
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5627,7 +6070,10 @@ export default function Landing() {
                                         Cars 2
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5645,7 +6091,10 @@ export default function Landing() {
                                         Darksiders II
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5670,7 +6119,10 @@ export default function Landing() {
                                         Dark Souls
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5688,7 +6140,10 @@ export default function Landing() {
                                         Dishonored
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5706,7 +6161,10 @@ export default function Landing() {
                                         Tomb Raider
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5724,7 +6182,10 @@ export default function Landing() {
                                         Red Dead Redemption
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5749,7 +6210,10 @@ export default function Landing() {
                                         Red Faction: Guerrilla
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5767,7 +6231,10 @@ export default function Landing() {
                                         LEGO Star Wars III
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5785,7 +6252,10 @@ export default function Landing() {
                                         Super Star Kartz
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5803,7 +6273,10 @@ export default function Landing() {
                                         The Walking Dead
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5825,7 +6298,10 @@ export default function Landing() {
                                         Deadpool
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5843,7 +6319,10 @@ export default function Landing() {
                                         Angry Birds Trilogy
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5861,7 +6340,10 @@ export default function Landing() {
                                         Skylanders Spyro's Adventure
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5879,7 +6361,10 @@ export default function Landing() {
                                         SpongeBob HeroPants
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -5954,7 +6439,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5972,7 +6460,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -5990,7 +6481,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6008,7 +6502,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -6033,7 +6530,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6051,7 +6551,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6069,7 +6572,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6087,7 +6593,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -6112,7 +6621,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6130,7 +6642,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6148,7 +6663,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6166,7 +6684,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -6188,7 +6709,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6206,7 +6730,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6224,7 +6751,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                                 <div className="col-sm-6 col-md-3 mb-3 mb-md-0 h-100">
@@ -6242,7 +6772,10 @@ export default function Landing() {
                                         demo
                                       </h5>
                                     </div>
-                                    <a className="stretched-link" href="/Trade"></a>
+                                    <a
+                                      className="stretched-link"
+                                      href="/Trade"
+                                    ></a>
                                   </div>
                                 </div>
                               </div>
@@ -6837,7 +7370,11 @@ export default function Landing() {
                 </h1>
                 <p className="mb-5 fs-1">Play today's hit new Games</p>
                 <div className="d-grid gap-2 d-md-block">
-                  <a className="btn btn-lg btn-dark" href="/Store" role="button">
+                  <a
+                    className="btn btn-lg btn-dark"
+                    href="/Store"
+                    role="button"
+                  >
                     Explore Collection
                   </a>
                 </div>
@@ -7293,13 +7830,14 @@ export default function Landing() {
               </h5>
               <div className="row input-group-icon mb-5">
                 <div className="col-12">
-                  <input
+                  <ContactUs></ContactUs>
+                  {/* <input
                     className="form-control input-box"
                     type="email"
                     placeholder="Enter Email"
                     aria-label="email"
-                  />
-          
+                  /> */}
+
                   <svg
                     className="bi bi-arrow-right-short input-box-icon"
                     xmlns="http://www.w3.org/2000/svg"

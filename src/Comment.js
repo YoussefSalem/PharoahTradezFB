@@ -1,47 +1,47 @@
-// import { Avatar } from "@material-ui/core";
-// import React from "react";
-// import "./Post.css";
-// import ThumbUpIcon from "@material-ui/icons/ThumbUp";
-// import ChatBubbleOutlineOutlinedIcon from "@material-ui/icons/ChatBubbleOutlineOutlined";
-// import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-// import NearMeIcon from "@material-ui/icons/NearMe";
-// import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-// function Comment({ profilePic, username, timestamp, comment }) {
-//   return (
-//     <div className="post">
-//       <div class="post__top">
-//         <Avatar src={profilePic} className="post__avatar" />
-//         <div class="post__topInfo">
-//           <h3>{username}</h3>
-//           <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
-//         </div>
-//       </div>
+export const ContactUs = () => {
+  const form = useRef();
 
-//       <div class="post__bottom">
-//         <p>{comment}</p>
-//       </div>
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-//       <div class="post__options">
-//         <div class="post__option">
-//           <ThumbUpIcon />
-//           <p>Like</p>
-//         </div>
-//         <div class="post__option">
-//           <ChatBubbleOutlineOutlinedIcon />
-//           <p>Comment</p>
-//         </div>
-//         <div class="post__option">
-//           <NearMeIcon />
-//           <p>Share</p>
-//         </div>
-//         <div class="post__option">
-//           <AccountCircleIcon />
-//           <ExpandMoreIcon />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
+    emailjs
+      .sendForm(
+        "service_vqvbbj9",
+        "template_9qspd4h",
+        form.current,
+        "11-JdzWlbvWZVtU41"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
-// export default Comment;
+  return (
+    <form ref={form} onSubmit={sendEmail}>
+      <input
+        className="form-control input-box"
+        type="email"
+        placeholder="Enter Email"
+        aria-label="email"
+        type="email"
+        name="user_email"
+      />
+
+      <input
+        onClick={() => {
+          alert("Subscribed To Newsletter");
+        }}
+        type="submit"
+        value="Send"
+      />
+    </form>
+  );
+};
